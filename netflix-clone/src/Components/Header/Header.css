@@ -1,0 +1,39 @@
+.header-outer-container{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: sticky;
+    top: 0;
+    color: white;
+    transform: all 0.5s ease;
+    height: 12vh;
+ 
+
+}
+.header-container{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+  
+}
+.right-header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px 10px;
+    
+}
+.header-container ul li{
+    font-size: 14px;
+    cursor: pointer;
+}
+.left-header ul{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}

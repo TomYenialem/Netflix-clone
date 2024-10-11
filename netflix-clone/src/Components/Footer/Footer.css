@@ -1,0 +1,19 @@
+.container {
+
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-wrapper{
+    width: 70%;
+}
+.row{
+    gap: 20px;
+}
+.row .social-medai-icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+

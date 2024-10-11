@@ -1,0 +1,11 @@
+
+
+body{
+    background-color: #020617;
+}
+
+:root{
+--bg-color:#111;
+--primary-color:#ffffff;
+--secondary-color:#e50914;
+}
