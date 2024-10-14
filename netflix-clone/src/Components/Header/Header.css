@@ -1,39 +1,103 @@
-.header-outer-container{
-    background-color: black;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    position: sticky;
-    top: 0;
-    color: white;
-    transform: all 0.5s ease;
-    height: 12vh;
- 
+.header-outer-container {
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: sticky;
+  top: 0;
+  color: white;
+  transform: all 0.5s ease;
+  height: 12vh;
+  z-index: 1;
+}
+.header-container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.right-header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px 10px;
+}
 
+.left-header ul {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
-.header-container{
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-  
+
+.navabr {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  cursor: pointer;
 }
-.right-header ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    padding: 0px 10px;
-    
+.menu {
+  display: none;
+  cursor: pointer;
 }
-.header-container ul li{
-    font-size: 14px;
-    cursor: pointer;
+.mobile-menu {
+  background-color: #111827;
+  position: absolute; 
+  top: 12vh; 
+  left: 0;
+  right: 0;
+  padding: 10px;
+  z-index: 1;
+  animation:  animate .3s linear;
 }
-.left-header ul{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-    
+@keyframes animate{
+    from{
+        transform: translateY(-200px);
+
+    }
+    to{
+        transform: translateY(0px);
+    }
 }
+
+.mobile-menu ul {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+   transition: all .5s ease;
+}
+
+.mobile-menu li {
+  color: white; 
+  cursor: pointer; 
+  padding: 10px; 
+}
+
+.mobile-menu li:hover {
+  background-color: rgba(255, 255, 255, 0.1); 
+}
+
+
+
+@media (max-width: 850px) {
+  .navabr {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+}
+@media(min-width:850px){
+    .mobile-menu{
+        display: none;
+    }
+}
+
+
+

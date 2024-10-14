@@ -1,0 +1,48 @@
+
+
+
+.netflix-orignilas {
+  display: flex;
+  gap: 30px;              
+  justify-content: flex-start;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  margin-left: 20px;
+}
+.row-poster{
+  width: 200px; 
+  height: auto;
+  transition: transform 0.2s; 
+  cursor: pointer;
+  object-fit: contain;
+  max-height: 200px;
+}
+.netflix-orignilas::-webkit-scrollbar{
+    display: none;
+}
+.row-poster-large{
+    height: 250px;
+      transition: transform 0.2s; 
+}
+
+.original-picture img:hover {
+  transform: scale(1.2); 
+}
+.title-text{
+  text-transform: capitalize;
+  font-size: 32px;
+  padding: 10px;
+}
+
+
+.youtube-trailer{
+  position: relative;
+}
+.close{
+  position: absolute;
+  top: 30px;
+  right: 65px;
+  font-size: 15px;
+  border-radius: 50%;
+  
+}

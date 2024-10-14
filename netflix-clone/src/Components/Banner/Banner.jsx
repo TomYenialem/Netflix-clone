@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Banner.css";
 import request from "../../Utilies/request";
+import { Link } from "react-router-dom";
 
 export default function Banner() {
   const [movie, setMovie] = useState({});
@@ -12,7 +13,7 @@ export default function Banner() {
       );
 
       if (!response.ok) {
-        console.log("Response error");
+        console.log("Response Erorr");
         return;
       }
 
@@ -47,7 +48,9 @@ export default function Banner() {
         </div>
         <div className="play-button">
           <button className="play">Play</button>
-          <button className="list">My List</button>
+          
+            <button className="list">My List</button>
+         
         </div>
         <div className="overview text-white col-sm-6">
           {movie.overview

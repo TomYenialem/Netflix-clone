@@ -9,9 +9,12 @@ const request = {
   Animation: `discover/movie?api_key=${API_KEY}&with_genres=16`,
   comedy: `discover/movie?api_key=${API_KEY}&with_genres=35`,
   fantasy: `discover/movie?api_key=${API_KEY}&with_genres=14`,
-  horro: `discover/movie?api_key=${API_KEY}&with_genres=27`,
+  horror: `discover/movie?api_key=${API_KEY}&with_genres=27`,
   romance: `discover/movie?api_key=${API_KEY}&with_genres=10749`,
   war: `discover/movie?api_key=${API_KEY}&with_genres=10752`,
+  Drama: `discover/movie?api_key=${API_KEY}&with_genres=18`,
+  History: `discover/movie?api_key=${API_KEY}&with_genres=36`,
+  Music: `discover/movie?api_key=${API_KEY}&with_genres=10402`,
   triller:`discover/movie?api_key=${API_KEY}&with_genres=53`
 };
 
