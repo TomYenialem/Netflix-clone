@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <div className={`footer ${isSmall?'container-fluid':'container'}`}>
       <div className="footer-wrapper">
-        <div className="row">
+        <div className="row"> 
           <div className="col-md-12  mt-5">
             <ul className="social-medai-icons">
               <li>
@@ -23,7 +23,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="col-12 col-sm">
+          <div className="col-md">
             <ul>
               <li>Audio Descrbition</li>
               <li>Investor Relation</li>
@@ -32,21 +32,21 @@ export default function Footer() {
               <li>&copy; 1997-2024 Netflix Inc.</li>
             </ul>
           </div>
-          <div className="col-12 col-sm">
+          <div className="col-md">
             <ul>
               <li>Help Center</li>
               <li>Jobs</li>
               <li>Cookie Preferance</li>
             </ul>
           </div>
-          <div className="col-12 col-sm">
+          <div className="col-md">
             <ul>
               <li>Gift Cards</li>
               <li>Terms of Uses</li>
               <li>Corporate Information</li>
             </ul>
           </div>
-          <div className="col-12 col-sm">
+          <div className="col-md">
             <ul>
               <li>Media Cneter</li>
               <li>Privacy</li>

@@ -8,8 +8,8 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { CiMenuFries } from "react-icons/ci";
 
 export default function Header() {
-  const [showNav, setShowNav] = useState(true); // Desktop navigation visibility
-  const [showMenu, setShowMenu] = useState(false); // Mobile menu visibility
+  const [showNav, setShowNav] = useState(true); // Desktop 
+  const [showMenu, setShowMenu] = useState(false); // Mobile 
 
   const handleNavToggle = () => {
   

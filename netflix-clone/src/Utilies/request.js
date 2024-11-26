@@ -1,7 +1,7 @@
 let API_KEY = import.meta.env.VITE_API_KEY;
 
 
-const request = {
+const request = { 
 
   tv: `discover/tv?api_key=${API_KEY}&language=en-US`,
   action: `discover/movie?api_key=${API_KEY}&with_genres=28`,

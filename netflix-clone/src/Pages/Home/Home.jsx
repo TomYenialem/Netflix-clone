@@ -8,9 +8,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-
       <Banner />
-
       <RowList />
       <Footer />
     </div>
